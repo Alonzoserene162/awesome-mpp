@@ -1,0 +1,30 @@
+name: Update Registry
+
+on:
+  push:
+    branches: [main]
+    paths: [README.md]
+
+permissions:
+  contents: write
+
+jobs:
+  generate-registry:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: oven-sh/setup-bun@v2
+        with:
+          bun-version: latest
+
+      - name: Generate registry.json
+        run: bun scripts/generate-registry.ts
+
+      - name: Commit updated registry
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add registry.json
+          git diff --cached --quiet || git commit -m "Update registry.json from README changes"
+          git push

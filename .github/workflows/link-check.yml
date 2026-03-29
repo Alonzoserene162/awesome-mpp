@@ -1,0 +1,47 @@
+name: Check Links
+
+on:
+  schedule:
+    # Every Sunday at midnight UTC
+    - cron: "0 0 * * 0"
+  pull_request:
+    paths:
+      - "README.md"
+  workflow_dispatch:
+
+jobs:
+  link-check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Lychee Link Checker
+        id: lychee
+        uses: lycheeverse/lychee-action@v2
+        with:
+          args: >-
+            --no-progress
+            --exclude-mail
+            --exclude-path node_modules
+            --exclude '^(?!https?://)'
+            --max-retries 3
+            --retry-wait-time 5
+            --timeout 30
+            --accept 200,204,301,302,403,429
+            README.md
+          fail: true
+
+      - name: Create issue on dead links (scheduled runs)
+        if: failure() && github.event_name == 'schedule'
+        uses: peter-evans/create-issue-from-file@v5
+        with:
+          title: "Dead links found in README.md"
+          content-filepath: ./lychee/out.md
+          labels: maintenance, links
+
+      - name: Comment on PR with dead links
+        if: failure() && github.event_name == 'pull_request'
+        uses: marocchino/sticky-pull-request-comment@v2
+        with:
+          header: link-check
+          path: ./lychee/out.md
