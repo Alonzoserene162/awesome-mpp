@@ -149,6 +149,7 @@ Community:
 - [MPP-Inspector](https://github.com/amgb20/MPP-Inspector) - CLI + web dashboard for debugging MPP flows. "Postman for MPP."
 - [mcp-protocol-tester](https://github.com/whiteknightonhorse/mcp-protocol-tester) - Universal test suite for MCP servers with dual-rail payment testing (x402 + MPP).
 - [openprice](https://github.com/tldr-wknd/openprice) - Price discovery middleware for the agent economy.
+- [x402-proxy](https://github.com/cascade-protocol/x402-proxy) - `curl` for x402 and MPP paid APIs. Auto-pays HTTP 402 responses on Base, Solana, and Tempo. MCP stdio proxy for AI agents, wallet management, pay-per-token streaming via MPP sessions. `npx x402-proxy`. ([npm](https://www.npmjs.com/package/x402-proxy))
 
 - [Parallel](https://www.mpppay.fun/ecosystem) - Web search, page extraction, and multi-hop web research.
 - [Brave Search](https://brave.com/search) - Independent web search — web, news, images, videos, AI answers, and LLM context. Privacy-first search from a large independent index.
