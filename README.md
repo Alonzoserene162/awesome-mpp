@@ -89,7 +89,7 @@ MPP is payment-method agnostic. Each chain or rail has its own plugin.
 - [Alchemy](https://agents.alchemy.com/) - Blockchain data APIs including Core RPC APIs, Prices API, Portfolio API, and NFT API across 100+ chains.
 - [Allium](https://allium.so) - System of record for onchain finance. Real-time Blockchain data: token prices, wallet balances, transactions, PnL, and SQL explorer.
 - [Codex](https://codex.io) - Comprehensive onchain data API for tokens and prediction markets. Real-time prices, charts, trades, and wallet analytics across 80+ networks via GraphQL.
-- [QuickNode](https://quicknode.com/) - Quicknode Core Node API for 80+ blockchains and 140+ networks.
+- [QuickNode](https://quicknode.com/) - Core Node API for 80+ Blockchains and 140+ networks.
 ## Framework Integrations
 
 The mppx TypeScript SDK includes built-in middleware for Hono, Express, Next.js, Elysia, Bun.serve, and Deno.serve. Community integrations extend MPP to additional frameworks.
@@ -108,7 +108,7 @@ The mppx TypeScript SDK includes built-in middleware for Hono, Express, Next.js,
 - [tollbooth](https://github.com/abhay/tollbooth) - Solana payment gateway with MPP, gasless fee relayer, and axum middleware.
 - [Code Storage](https://code.storage) - Paid Git repository creation with authenticated clone URLs.
 
-- [Object Storage](https://tempo.xyz) - S3/R2-compatible object storage with dynamic per-size pricing.
+- [Object Storage](https://objectstorage.dev) - S3/R2-compatible object storage with dynamic per-size pricing.
 - [StableUpload](https://stableupload.dev) - Pay-per-upload file hosting and static site hosting with custom domains — 6 month TTL.
 ## Agent Tools and CLIs
 
@@ -187,7 +187,7 @@ Available through Tempo's MPP proxy at mpp.tempo.xyz -- pay with any MPP method:
 
 **Abstract APIs:** [Company Enrichment](https://www.abstractapi.com/api/company-enrichment), [Email Reputation](https://www.abstractapi.com/api/email-reputation-api), [Exchange Rates](https://www.abstractapi.com/api/exchange-rate-api), [Holidays](https://www.abstractapi.com/api/holidays-api), [IBAN Validation](https://www.abstractapi.com/api/iban-validation-api), [IP Intelligence](https://www.abstractapi.com/api/ip-intelligence-api), [Phone Intelligence](https://www.abstractapi.com/api/phone-validation-api), [Timezone](https://www.abstractapi.com/api/time-date-timezone-api), [VAT](https://www.abstractapi.com/api/vat-validation-rates-api), [Web Scraping](https://www.abstractapi.com/api/web-scraping-api)
 
-**Other Services:** [PostalForm](https://postalform.com), [StableEmail](https://stableemail.com), [StableEnrich](https://stableenrich.com), [StablePhone](https://stablephone.com), [StableSocial](https://stablesocial.com), [StableStudio](https://stablestudio.com), [StableUpload](https://stableupload.com), [Object Storage](https://objectstorage.dev), [Prospect Butcher](https://prospectbutcher.com)
+**Other Services:** [PostalForm](https://www.postalform.com), [StableEmail](https://stableemail.com), [StableEnrich](https://stableenrich.com), [StablePhone](https://stablephone.com), [StableSocial](https://stablesocial.com), [StableStudio](https://stablestudio.com), [StableUpload](https://stableupload.com), [Prospect Butcher](https://prospectbutcher.com)
 
 ## Community Projects
 
@@ -246,8 +246,6 @@ Available through Tempo's MPP proxy at mpp.tempo.xyz -- pay with any MPP method:
 
 - [StableTravel](https://stabletravel.dev) - Pay-per-request travel APIs — flights, hotels, activities, transfers, and real-time flight tracking. Powered by Amadeus and FlightAware.
 - [Stripe Climate](https://stripe.com/climate) - Fund permanent carbon removal projects via Stripe Climate.
-- [PostalForm](https://postalform.com) - Print and mail real letters and documents via AI agents.
-- [Prospect Butcher](https://www.prospectbutcher.com) - Order sandwiches for pickup in Brooklyn — the first food purchase made entirely by an AI agent.
 - [StableEmail](https://stableemail.dev) - Pay-per-send email delivery, forwarding inboxes, and custom subdomains — no API keys or accounts.
 - [StableEnrich](https://stableenrich.dev) - Pay-per-request research APIs — people, companies, web search, scraping, places, social media, and contact enrichment.
 - [StablePhone](https://stablephone.dev) - AI phone calls, dedicated phone numbers, and iMessage/FaceTime lookup — pay per request.
@@ -297,4 +295,4 @@ Contributions welcome! Read the [contribution guidelines](CONTRIBUTING.md) first
 
 ## Footnotes
 
-The **Machine Payments Protocol** is an open HTTP payment standard created by [Stripe](https://stripe.com) and [Tempo Labs](https://tempo.xyz), launched March 2026. It uses HTTP 402 (Payment Required) with an extensible challenge-credential-receipt flow so any client -- AI agents, apps, or humans -- can pay for any API or service in the same HTTP request. No API keys, billing accounts, or checkout flows are required. MPP is payment-method agnostic, supporting stablecoins, credit cards, Lightning, and 15+ chains. It supports one-time charges, sessions with pre-authorized spending, and streaming. The IETF draft (`draft-ryan-httpauth-payment`) was co-authored by Stripe and Tempo.
+The **Machine Payments Protocol** is an open HTTP payment standard created by Stripe and Tempo Labs, launched March 2026. It uses HTTP 402 (Payment Required) with an extensible challenge-credential-receipt flow so any client -- AI agents, apps, or humans -- can pay for any API or service in the same HTTP request. No API keys, billing accounts, or checkout flows are required. MPP is payment-method agnostic, supporting stablecoins, credit cards, Lightning, and 15+ chains. It supports one-time charges, sessions with pre-authorized spending, and streaming. The IETF draft (`draft-ryan-httpauth-payment`) was co-authored by Stripe and Tempo.
