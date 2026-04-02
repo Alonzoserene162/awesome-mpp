@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-04-02T00:18:03.172Z",
-  "total_projects": 180,
+  "generated_at": "2026-04-02T00:37:23.047Z",
+  "total_projects": 200,
   "categories": [
     {
       "name": "Protocol & Specs",
@@ -299,6 +299,36 @@
               "url": "https://www.npmjs.com/package/@raycashxyz/mpp",
               "description": "Private payments via Raycash",
               "type": "npm"
+            },
+            {
+              "name": "Alchemy",
+              "url": "https://www.mpppay.fun/ecosystem",
+              "description": "Blockchain data APIs including Core RPC APIs, Prices API, Portfolio API, and NFT API across 100+ chains",
+              "type": "external"
+            },
+            {
+              "name": "Allium",
+              "url": "https://www.mpppay.fun/ecosystem",
+              "description": "System of record for onchain finance. Real-time blockchain data: token prices, wallet balances, transactions, PnL, and SQL explorer",
+              "type": "external"
+            },
+            {
+              "name": "Codex",
+              "url": "https://www.mpppay.fun/ecosystem",
+              "description": "Comprehensive onchain data API for tokens and prediction markets. Real-time prices, charts, trades, and wallet analytics across 80+ networks via GraphQL",
+              "type": "external"
+            },
+            {
+              "name": "QuickNode",
+              "url": "https://www.mpppay.fun/ecosystem",
+              "description": "Quicknode Core Node API for 80+ blockchains and 140+ networks",
+              "type": "external"
+            },
+            {
+              "name": "Tempo RPC",
+              "url": "https://www.mpppay.fun/ecosystem",
+              "description": "Tempo blockchain JSON-RPC access (mainnet and testnet)",
+              "type": "external"
             }
           ]
         }
@@ -410,6 +440,18 @@
               "url": "https://github.com/abhay/tollbooth",
               "description": "Solana payment gateway with MPP, gasless fee relayer, axum middleware",
               "type": "github"
+            },
+            {
+              "name": "Object Storage",
+              "url": "https://www.mpppay.fun/ecosystem",
+              "description": "S3/R2-compatible object storage with dynamic per-size pricing",
+              "type": "external"
+            },
+            {
+              "name": "StableUpload",
+              "url": "https://www.mpppay.fun/ecosystem",
+              "description": "Pay-per-upload file hosting and static site hosting with custom domains — 6 month TTL",
+              "type": "external"
             }
           ]
         }
@@ -480,6 +522,12 @@
               "url": "https://github.com/tldr-wknd/openprice",
               "description": "Price discovery middleware for the agent economy",
               "type": "github"
+            },
+            {
+              "name": "Parallel",
+              "url": "https://www.mpppay.fun/ecosystem",
+              "description": "Web search, page extraction, and multi-hop web research",
+              "type": "external"
             }
           ]
         }
@@ -1027,6 +1075,78 @@
               "url": "https://github.com/zhivkoto/tempo-private-payments",
               "description": "Confidential stablecoin transfers via stealth addresses + MPP",
               "type": "github"
+            },
+            {
+              "name": "StableTravel",
+              "url": "https://www.mpppay.fun/ecosystem",
+              "description": "Pay-per-request travel APIs — flights, hotels, activities, transfers, and real-time flight tracking. Powered by Amadeus and FlightAware",
+              "type": "external"
+            },
+            {
+              "name": "Stripe Climate",
+              "url": "https://www.mpppay.fun/ecosystem",
+              "description": "Fund permanent carbon removal projects via Stripe Climate",
+              "type": "external"
+            },
+            {
+              "name": "Browserbase",
+              "url": "https://www.mpppay.fun/ecosystem",
+              "description": "Headless browser sessions, web search, and page fetching for AI agents",
+              "type": "external"
+            },
+            {
+              "name": "AgentMail",
+              "url": "https://www.mpppay.fun/ecosystem",
+              "description": "Email inboxes for AI agents",
+              "type": "external"
+            },
+            {
+              "name": "Dune",
+              "url": "https://www.mpppay.fun/ecosystem",
+              "description": "Query across raw transaction data, decoded smart contract events, stablecoin flows, RWA tracking, protocol analytics, DeFi positions, NFT activity, blockchain market research, and whatever is trending",
+              "type": "external"
+            },
+            {
+              "name": "PostalForm",
+              "url": "https://www.mpppay.fun/ecosystem",
+              "description": "Print and mail real letters and documents via AI agents",
+              "type": "external"
+            },
+            {
+              "name": "Prospect Butcher",
+              "url": "https://www.mpppay.fun/ecosystem",
+              "description": "Order sandwiches for pickup in Brooklyn — the first food purchase made entirely by an AI agent",
+              "type": "external"
+            },
+            {
+              "name": "StableEmail",
+              "url": "https://www.mpppay.fun/ecosystem",
+              "description": "Pay-per-send email delivery, forwarding inboxes, and custom subdomains — no API keys or accounts",
+              "type": "external"
+            },
+            {
+              "name": "StableEnrich",
+              "url": "https://www.mpppay.fun/ecosystem",
+              "description": "Pay-per-request research APIs — people, companies, web search, scraping, places, social media, and contact enrichment",
+              "type": "external"
+            },
+            {
+              "name": "StablePhone",
+              "url": "https://www.mpppay.fun/ecosystem",
+              "description": "AI phone calls, dedicated phone numbers, and iMessage/FaceTime lookup — pay per request",
+              "type": "external"
+            },
+            {
+              "name": "StableSocial",
+              "url": "https://www.mpppay.fun/ecosystem",
+              "description": "Pay-per-request social media data from TikTok, Instagram, Facebook, and Reddit",
+              "type": "external"
+            },
+            {
+              "name": "StableStudio",
+              "url": "https://www.mpppay.fun/ecosystem",
+              "description": "Pay-per-generation AI image and video creation — Nano Banana, GPT Image, Grok, Flux, Sora, Veo, Seedance, and Wan",
+              "type": "external"
             }
           ]
         },
