@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-04-02T00:40:58.055Z",
-  "total_projects": 260,
+  "generated_at": "2026-04-02T00:42:14.693Z",
+  "total_projects": 263,
   "categories": [
     {
       "name": "Protocol & Specs",
@@ -162,6 +162,12 @@
               "name": "mppx-solana",
               "url": "https://github.com/nitishxyz/mppx-solana",
               "description": "mppx plugin for Solana",
+              "type": "github"
+            },
+            {
+              "name": "mpp-spl",
+              "url": "https://github.com/nullxnothing/mpp-spl",
+              "description": "SPL token + pump.fun payment layer. Token registry, Jupiter/bonding curve pricing, charge config resolver",
               "type": "github"
             }
           ]
@@ -548,6 +554,13 @@
               "type": "github"
             },
             {
+              "name": "x402-proxy",
+              "url": "https://github.com/cascade-protocol/x402-proxy",
+              "description": "`curl` for x402 and MPP paid APIs. Auto-pays HTTP 402 responses on Base, Solana, and Tempo. MCP stdio proxy for AI agents, wallet management, pay-per-token streaming via MPP sessions. . ([npm](https://www.npmjs.com/package/x402-proxy))",
+              "type": "github",
+              "package": "npx x402-proxy"
+            },
+            {
               "name": "Parallel",
               "url": "https://www.mpppay.fun/ecosystem",
               "description": "Web search, page extraction, and multi-hop web research",
@@ -699,6 +712,12 @@
               "url": "https://github.com/dteIecom/Dtelecom",
               "description": "Real-time voice, video & voice AI. Pay-per-use via x402/MPP",
               "type": "github"
+            },
+            {
+              "name": "Surf",
+              "url": "https://surf.cascade.fyi",
+              "description": "Pay-per-use Twitter, Reddit, web, and inference APIs for AI agents. Dual-protocol (x402 + MPP) on Base, Solana, and Tempo. Unified MCP server at `/mcp`. ([GitHub](https://github.com/cascade-protocol/surf))",
+              "type": "external"
             }
           ]
         },
