@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-04-02T04:32:27.005Z",
-  "total_projects": 272,
+  "generated_at": "2026-04-02T12:51:29.116Z",
+  "total_projects": 275,
   "categories": [
     {
       "name": "Protocol and Specs",
@@ -334,6 +334,12 @@
               "name": "QuickNode",
               "url": "https://quicknode.com/",
               "description": "Core Node API for 80+ Blockchains and 140+ networks",
+              "type": "external"
+            },
+            {
+              "name": "Tempo RPC",
+              "url": "https://tempo.xyz",
+              "description": "Tempo Blockchain JSON-RPC access (mainnet and testnet)",
               "type": "external"
             }
           ]
@@ -1555,6 +1561,18 @@
               "name": "StableStudio",
               "url": "https://stablestudio.dev",
               "description": "Pay-per-generation AI image and video creation — Nano Banana, GPT Image, Grok, Flux, Sora, Veo, Seedance, and Wan",
+              "type": "external"
+            },
+            {
+              "name": "PostalForm",
+              "url": "https://postalform.com",
+              "description": "Print and mail real letters and documents via AI agents",
+              "type": "external"
+            },
+            {
+              "name": "Prospect Butcher",
+              "url": "https://www.prospectbutcher.com",
+              "description": "Order sandwiches for pickup in Brooklyn — the first food purchase made entirely by an AI agent",
               "type": "external"
             }
           ]
