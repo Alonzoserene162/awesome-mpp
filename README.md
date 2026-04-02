@@ -56,6 +56,7 @@ MPP is payment-method agnostic. Each chain or rail has its own plugin.
 - [mpp-solana](https://github.com/starc007/mpp-solana) - SPL token support for MPP on Solana.
 - [mppx-solana](https://github.com/nitishxyz/mppx-solana) - Mppx plugin for Solana.
 - [mpp-spl](https://github.com/nullxnothing/mpp-spl) - SPL token and pump.fun payment layer with token registry and Jupiter pricing.
+- [solana-mpp](https://github.com/sendaifun/solana-mpp) - Solana extension for MPP.
 
 ### Lightning
 
@@ -107,6 +108,7 @@ The mppx TypeScript SDK includes built-in middleware for Hono, Express, Next.js,
 - [mpp-cloudflare-dynamic-edge-agent](https://github.com/sam00101011/mpp-cloudflare-dynamic-edge-agent) - Dynamic edge agent on Cloudflare Workers.
 - [tollbooth](https://github.com/abhay/tollbooth) - Solana payment gateway with MPP, gasless fee relayer, and axum middleware.
 - [Code Storage](https://code.storage) - Paid Git repository creation with authenticated clone URLs.
+- [asgcard-public](https://github.com/ASGCompute/asgcard-public) - Virtual MasterCards for AI agents with USDC payments via x402 on Stellar.
 
 - [Object Storage](https://objectstorage.dev) - S3/R2-compatible object storage with dynamic per-size pricing.
 - [StableUpload](https://stableupload.dev) - Pay-per-upload file hosting and static site hosting with custom domains — 6 month TTL.
@@ -126,6 +128,11 @@ The mppx TypeScript SDK includes built-in middleware for Hono, Express, Next.js,
 - [knox](https://github.com/stephancill/knox) - Moddable payments CLI for x402 and MPP.
 - [@raycashxyz/mpp-pay](https://github.com/raycashxyz/mpp-pay) - CLI for making paid API requests via MPP.
 - [satring](https://github.com/toadlyBroodle/satring) - Service directory for the agent economy with L402 and x402 discovery, ratings, and Lightning payments.
+- [regent-cli](https://github.com/regent-ai/regent-cli) - CLI for Regent agents with ERC-8004, x402, MPP, ENS, WorldID, and XMTP support.
+- [autolaunch](https://github.com/regent-ai/autolaunch) - Uniswap CCA auctions via CLI for agents with revenue splits from x402 and MPP.
+- [402Router](https://github.com/obulai/402Router) - Open-source client-side model router for x402 and MPP providers.
+- [APIbase](https://github.com/whiteknightonhorse/APIbase) - Universal MCP gateway for AI agents with 413 tools across 123 providers. Pay per call with x402 and MPP.
+- [bitrouter](https://github.com/bitrouter/bitrouter) - Agentic proxy for modern agent runtimes with smart routing across LLMs, tools, and agents.
 
 - [Parallel](https://parallel.ai) - Web search, page extraction, and multi-hop web research.
 ## Middleware and Extensions
@@ -152,6 +159,11 @@ The mppx TypeScript SDK includes built-in middleware for Hono, Express, Next.js,
 - [@atxp/mpp](https://github.com/atxp-dev/sdk) - ATXP MPP support for agent identity and delegation.
 - [@grantex/mpp](https://github.com/mishrasanjeev/grantex) - Grantex agent identity and delegation for MPP.
 - [@stellar/mpp](https://github.com/stellar/stellar-mpp-sdk) - Stellar Blockchain payment method for MPP.
+- [Agent_Attestation](https://github.com/KCorstor/Agent_Attestation) - Agent attestation API with connectivity, income verification, and ID data for x402, MPP, and KYA stacks.
+- [trust-layer](https://github.com/ark-forge/trust-layer) - Certifying proxy for agent-to-agent transactions with SHA-256 proof chain and Ed25519 signatures.
+- [cipherpay-x402](https://github.com/atmospherelabs-dev/cipherpay-x402) - CipherPay x402 payment integration.
+- [x402-MPP-shielded-](https://github.com/amiabix/x402-MPP-shielded-) - Shielded payment integration for x402 and MPP.
+- [402-crawler-spec](https://github.com/taskhawk-systems/402-crawler-spec) - Reference crawler and discovery schemas for L402, x402, and MPP paid API endpoints.
 
 ## Services
 
@@ -210,6 +222,11 @@ Available through Tempo's MPP proxy at mpp.tempo.xyz -- pay with any MPP method:
 - [mpp-settlement-engine](https://github.com/dahlinomine/mpp-settlement-engine) - Lightweight sub-cent agent-to-agent settlement engine for MPP.
 - [mpp-core-contracts](https://github.com/dahlinomine/mpp-core-contracts) - Solidity contracts for autonomous agent-to-agent settlement via MPP.
 - [mpp-wallet-js](https://github.com/dahlinomine/mpp-wallet-js) - Lightweight TypeScript SDK for MPP in autonomous agent wallets.
+- [agent-wallet](https://github.com/Sortis-AI/agent-wallet) - Command-line wallet for AI agents with MPP and Solana support.
+- [DRAIN](https://github.com/kimbo128/DRAIN) - Decentralized runtime for AI networks with trustless micropayments for AI agents.
+- [boltzpay](https://github.com/leventilo/boltzpay) - Multi-protocol, multi-chain payment fetch wrapper for AI agents.
+- [settlegrid](https://github.com/lexwhiting/settlegrid) - Settlement layer for AI agent payments with per-call billing, 10 protocols, and built-in discovery.
+- [marc](https://github.com/marc-protocol/marc) - Privacy layer for agent payments using FHE-encrypted tokens, agent identity, and escrow-based commerce.
 
 ### MCP Bridges
 
@@ -221,6 +238,8 @@ Available through Tempo's MPP proxy at mpp.tempo.xyz -- pay with any MPP method:
 - [delx-protocol](https://github.com/davidmosiah/delx-protocol) - Open-core protocol surfaces for MCP, A2A, REST, x402, and MPP.
 - [gateway](https://github.com/tomopay/gateway) - Payment gateway for MCP tools, charging agents per tool call with x402, MPP, and Stripe support.
 - [tomopay-gateway](https://github.com/QuinnYates/tomopay-gateway) - Payment gateway for MCP servers to monetize tools with one wrapper.
+- [402index-mcp-server](https://github.com/ryanthegentry/402index-mcp-server) - MCP server for 402 Index with discovery across 15,000+ paid API endpoints.
+- [agentpay-mcp](https://github.com/up2itnow0822/agentpay-mcp) - Non-custodial x402 MCP payment layer for AI agents.
 
 ### Applications
 
@@ -244,6 +263,17 @@ Available through Tempo's MPP proxy at mpp.tempo.xyz -- pay with any MPP method:
 - [agent-commerce-protocol](https://github.com/nicoroldan1/agent-commerce-protocol) - Open protocol for agent-native commerce covering discovery, trust, and catalog for the agentic web.
 - [agent-payments-landscape](https://github.com/goodmeta/agent-payments-landscape) - Living comparison of agent payment protocols including AP2, ACP, x402, MPP, and UCP.
 - [tempo-hackathon](https://github.com/kphed/tempo-hackathon) - Research-as-a-service over MPP with cited results for one cent per query.
+- [PotPuzzle](https://github.com/Devendra116/PotPuzzle) - Real-time multiplayer word puzzles with Tempo MPP payments and winner-takes-all rewards.
+- [tempo-research-agent](https://github.com/HOWTOREP/tempo-research-agent) - AI research agent where every tool call is a real payment on Tempo via MPP.
+- [nba-bets](https://github.com/Ujjwal-N/nba-bets) - Real-time NBA micro-betting with on-chain USDC settlement via Tempo and MPP.
+- [ghost-kitchen](https://github.com/max-digi/ghost-kitchen) - Agentic B2B payments demo with multi-hop MPP cascades, virtual debit cards, and DoorDash delivery.
+- [voicempp](https://github.com/dieutx/voicempp) - Voice-as-a-Service for AI agents via Tempo MPP with TTS and STT micropayments.
+- [tempo-agent-payments-demo](https://github.com/glabun002/tempo-agent-payments-demo) - Agent-to-agent payments on Tempo Blockchain with autonomous AI agents transacting via MPP.
+- [tweetclaw](https://github.com/Xquik-dev/tweetclaw) - Full X/Twitter automation via OpenClaw with 120 endpoints and pay-per-call pricing.
+- [lorem-ipsum-api](https://github.com/stephancill/lorem-ipsum-api) - Paywalled lorem ipsum API supporting x402 and MPP.
+- [arkapi](https://github.com/PiHiker/arkapi) - Anonymous pay-per-call APIs for agents and developers funded with Bitcoin over Ark.
+- [agentic-commerce-research](https://github.com/minddog/agentic-commerce-research) - Living research paper on agentic commerce updated daily.
+- [doli](https://github.com/doli-network/doli) - Peer-to-peer electronic cash system based on verifiable time.
 
 - [StableTravel](https://stabletravel.dev) - Pay-per-request travel APIs — flights, hotels, activities, transfers, and real-time flight tracking. Powered by Amadeus and FlightAware.
 - [Stripe Climate](https://stripe.com/climate) - Fund permanent carbon removal projects via Stripe Climate.
@@ -264,6 +294,7 @@ Available through Tempo's MPP proxy at mpp.tempo.xyz -- pay with any MPP method:
 - [tempo-x402-demo](https://github.com/compusophy/tempo-x402-demo) - Interactive x402 demo on Tempo.
 - [emv-tempo](https://github.com/zhangzhongnan928/emv-tempo) - EMV contactless card payments settled on Tempo.
 - [mpp-sample](https://github.com/mashharuki/mpp-sample) - Sample code demonstrating the Machine Payments Protocol.
+- [Stellar-Hackathon](https://github.com/abraham-yusuf/Stellar-Hackathon) - Stellar Hackathon agent with x402 resource integration.
 
 - [awesome-mpp](https://github.com/mbeato/awesome-mpp) - The MPP registry — 100+ Machine Payments Protocol tools, SDKs, services, and payment methods across 15+ chains. The definitive directory for Stripe + Tempo agent payments.
 ## Tempo Blockchain
