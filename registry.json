@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-04-03T17:16:22.153Z",
-  "total_projects": 280,
+  "generated_at": "2026-04-04T06:00:28.309Z",
+  "total_projects": 282,
   "categories": [
     {
       "name": "Protocol and Specs",
@@ -1680,6 +1680,18 @@
               "name": "aegis-autonopay",
               "url": "https://github.com/habibafrido/aegis-autonopay",
               "description": "AI Agent Payment Infrastructure built on Open Wallet Standard (OWS) + x402 + MPP",
+              "type": "github"
+            },
+            {
+              "name": "mpp-agent-demo",
+              "url": "https://github.com/mlouie/mpp-agent-demo",
+              "description": "Exploring Tempo's Machine Payments Protocol (MPP) through an agentic DoorDash commerce demo",
+              "type": "github"
+            },
+            {
+              "name": "ASGCompute-ows-agent-pay",
+              "url": "https://github.com/ASGCompute/ASGCompute-ows-agent-pay",
+              "description": "ASG Pay - Payment infrastructure for autonomous AI agents. 15 networks (EVM, Stellar, Solana, Stripe MPP), dual protocol (x402 + MPP), fail-closed policy engine. npm: @asgcard/pay",
               "type": "github"
             }
           ]
