@@ -143,6 +143,7 @@ The mppx TypeScript SDK includes built-in middleware for Hono, Express, Next.js,
 - [mppx-token-gate](https://github.com/douglasborthwick-crypto/mppx-token-gate) - Token-gate routes via signed wallet attestations across 32 chains.
 - [agenttax-mppx](https://github.com/AgentTax/agenttax-mppx) - Tax middleware for sales tax and capital gains on AI agent transactions.
 - [mpp-integration](https://github.com/observer-protocol/mpp-integration) - Trust and reputation layer for MPP sellers.
+- [@moltrust/mpp](https://www.npmjs.com/package/@moltrust/mpp) - W3C DID-based trust score middleware for MPP. Pre-transaction agent verification via MolTrust trust scores. Works with mppx.
 - [sardis-guard-mpp](https://github.com/EfeDurmaz16/sardis-guard-mpp) - Financial intelligence for AI agent payments.
 - [costillery](https://github.com/wytcab/costillery) - Receipt intelligence for AI agents, auto-capturing MPP and x402 receipts.
 - [agentlair-mpp-identity-bridge](https://github.com/piiiico/agentlair-mpp-identity-bridge) - Verifiable agent identity via DIDs and Ed25519 attestations.
