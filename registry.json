@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-12T10:00:29.659Z",
+  "generated_at": "2026-04-13T10:09:43.908Z",
   "total_projects": 296,
   "categories": [
     {
@@ -779,7 +779,7 @@
             {
               "name": "APIMesh",
               "url": "https://github.com/mbeato/conway",
-              "description": "57 pay-per-call APIs for AI agents (web-checker, http-status-checker, favicon-checker, microservice-health-check, status-code-checker, regex-builder, +51 more). Supports x402 + MPP",
+              "description": "60 pay-per-call APIs for AI agents (web-checker, http-status-checker, favicon-checker, microservice-health-check, status-code-checker, regex-builder, +54 more). Supports x402 + MPP",
               "type": "github"
             },
             {
