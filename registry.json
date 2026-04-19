@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-04-18T10:12:12.021Z",
-  "total_projects": 296,
+  "generated_at": "2026-04-19T06:00:31.870Z",
+  "total_projects": 305,
   "categories": [
     {
       "name": "Protocol and Specs",
@@ -764,6 +764,12 @@
               "name": "@suimpp/mpp",
               "url": "https://github.com/mission69b/suimpp",
               "description": "Sui USDC payment method for the Machine Payments Protocol (MPP)",
+              "type": "github"
+            },
+            {
+              "name": "auditor-mcp",
+              "url": "https://github.com/xaviersharwin10/soroban_node_0",
+              "description": "MCP server that audits Soroban smart contracts via autonomous x402 / Stripe MPP payments on Stellar Testnet",
               "type": "github"
             }
           ]
@@ -1776,6 +1782,54 @@
               "name": "mppx-hedera",
               "url": "https://github.com/tomrowbo/mppx-hedera",
               "description": "First native Machine Payments Protocol method for Hedera. Charge + session intents, no facilitator. MIT",
+              "type": "github"
+            },
+            {
+              "name": "hak-mppx-hedera-plugin",
+              "url": "https://github.com/tomrowbo/hak-mppx-hedera-plugin",
+              "description": "Hedera Agent Kit plugin for Machine Payments Protocol (MPP) — charge and session payments with USDC",
+              "type": "github"
+            },
+            {
+              "name": "Autonomous-X-border-Interchange-System",
+              "url": "https://github.com/nugrahsalam/Autonomous-X-border-Interchange-System",
+              "description": "AXIS is an open liquidity API for AI agents built on Stellar Testnet. Any external agent can send XLM to AXIS via MPP (Machine Payments Protocol) and receive the target asset directly in their wallet",
+              "type": "github"
+            },
+            {
+              "name": "tempo-hackathon-round-1",
+              "url": "https://github.com/kphed/tempo-hackathon-round-1",
+              "description": "Dossier: Research-as-a-service over MPP. Ask a question, get cited research. One cent. Includes native MCP server support. Built in <2 hours for the Tempo.xyz hackathon",
+              "type": "github"
+            },
+            {
+              "name": "railrouter-lite",
+              "url": "https://github.com/vdineshk/railrouter-lite",
+              "description": "Intelligent real-time payment rail router for AI agents. Chooses the optimal rail (Stripe MPP + x402 + Google AP2) in <50ms and compounds routing intelligence in D1",
+              "type": "github"
+            },
+            {
+              "name": "agentpass-skill",
+              "url": "https://github.com/cybersecai-uk/agentpass-skill",
+              "description": "First digitally signed Agent Skill for AI agent payments. Signed with x-agent-trust (ECDSA P-256). Supports x402, Stripe, ACP, AP2, MPP, Mastercard Agent Pay, Visa TAP, L402. Apache 2.0",
+              "type": "github"
+            },
+            {
+              "name": "routedock",
+              "url": "https://github.com/winsznx/routedock",
+              "description": "Unified payment execution layer for Stellar x402, MPP charge, MPP session behind one client.pay() call",
+              "type": "github"
+            },
+            {
+              "name": "rever-ai",
+              "url": "https://github.com/alienworld1/rever-ai",
+              "description": "Credit scores for AI agents. An on-chain reputation layer built on Stellar using x402 and MPP. Agents earn trust through their payment history to unlock lower API rates and sub-5ms session latency. Ze",
+              "type": "github"
+            },
+            {
+              "name": "stellar-agent-mesh",
+              "url": "https://github.com/ghost-clio/stellar-agent-mesh",
+              "description": "Agent-to-agent economic infrastructure on Stellar via x402 payments",
               "type": "github"
             }
           ]
