@@ -1357,7 +1357,7 @@
             {
               "name": "agentpay-mcp",
               "url": "https://github.com/up2itnow0822/agentpay-mcp",
-              "description": "Non-custodial x402 MCP payment layer for AI agents",
+              "description": "Non-custodial x402 MCP payment controls for AI agents, with approval gates, spend caps, and receipt logging",
               "type": "github"
             }
           ]
